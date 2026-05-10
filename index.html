@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Historia y Evolución de Internet</title>
+
+    <!-- ICONOS -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        /* HEADER */
+
+        header{
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1{
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        header p{
+            font-size: 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        /* NAVBAR */
+
+        nav{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            padding: 18px;
+            box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: #243b55;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover{
+            color: #0077ff;
+        }
+
+        /* CONTENEDOR */
+
+        .contenedor{
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 0;
+        }
+
+        /* SECCIONES */
+
+        .seccion{
+            background-color: white;
+            margin-bottom: 40px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .seccion img{
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .contenido{
+            padding: 30px;
+        }
+
+        .contenido h2{
+            color: #243b55;
+            margin-bottom: 15px;
+            font-size: 32px;
+        }
+
+        .contenido p{
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        /* BOTONES */
+
+        .boton{
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #243b55;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .boton:hover{
+            background-color: #0077ff;
+        }
+
+        /* TARJETAS */
+
+        .tarjetas{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .card{
+            background-color: white;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover{
+            transform: translateY(-5px);
+        }
+
+        .card i{
+            font-size: 45px;
+            color: #0077ff;
+            margin-bottom: 15px;
+        }
+
+        .card h3{
+            margin-bottom: 10px;
+            color: #243b55;
+        }
+
+        /* REFERENCIAS */
+
+        .referencias ul{
+            margin-left: 20px;
+        }
+
+        .referencias li{
+            margin-bottom: 15px;
+        }
+
+        .referencias a{
+            color: #0077ff;
+            text-decoration: none;
+        }
+
+        .referencias a:hover{
+            text-decoration: underline;
+        }
+
+        /* REDES */
+
+        .redes{
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .redes a{
+            color: white;
+            margin: 0 15px;
+            font-size: 28px;
+            transition: 0.3s;
+        }
+
+        .redes a:hover{
+            color: #00acee;
+        }
+
+        /* FOOTER */
+
+        footer{
+            background-color: #141e30;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        footer p{
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>Historia y Evolución de Internet</h1>
+
+        <p>
+            Descubre cómo Internet cambió el mundo desde sus inicios hasta la actualidad.
+        </p>
+
+    </header>
+
+    <!-- MENU -->
+
+    <nav>
+
+        <a href="#historia">Historia</a>
+        <a href="#protocolos">Protocolos</a>
+        <a href="#hosting">Hosting</a>
+        <a href="#referencias">Referencias</a>
+
+    </nav>
+
+    <div class="contenedor">
+
+        <!-- HISTORIA -->
+
+        <section class="seccion" id="historia">
+
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="contenido">
+
+                <h2>Historia de Internet</h2>
+
+                <p>
+                    Internet nació en la década de 1960 con ARPANET, una red creada para compartir
+                    información entre computadoras. Con el tiempo evolucionó hasta convertirse en
+                    la red global que actualmente conecta millones de personas en todo el mundo.
+                </p>
+
+                <p>
+                    En los años 90 surgió la World Wide Web gracias a Tim Berners-Lee, facilitando
+                    la navegación mediante páginas web y navegadores.
+                </p>
+
+                <a class="boton"
+                href="https://concepto.de/internet/"
+                target="_blank">
+
+                    Leer más
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- TARJETAS -->
+
+        <div class="tarjetas">
+
+            <div class="card">
+
+                <i class="fa-solid fa-network-wired"></i>
+
+                <h3>TCP/IP</h3>
+
+                <p>
+                    Base principal para la comunicación entre dispositivos conectados a Internet.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <h3>World Wide Web</h3>
+
+                <p>
+                    Sistema de páginas web accesibles mediante navegadores.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-server"></i>
+
+                <h3>Hosting Web</h3>
+
+                <p>
+                    Servicio que almacena páginas web para que estén disponibles en Internet.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- PROTOCOLOS -->
+
+        <section class="seccion" id="protocolos">
+
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="contenido">
+
+                <h2>Protocolos de Internet</h2>
+
+                <p>
+                    Los protocolos son reglas que permiten la comunicación en Internet.
+                    Algunos de los más importantes son HTTP, HTTPS, TCP/IP y DNS.
+                </p>
+
+                <a class="boton"
+                href="https://www.ingeniovirtual.com/los-protocolos-de-internet/"
+                target="_blank">
+
+                    Ver protocolos
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- HOSTING -->
+
+        <section class="seccion" id="hosting">
+
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=1200&auto=format&fit=crop">
+
+            <div class="contenido">
+
+                <h2>¿Qué es el Hosting?</h2>
+
+                <p>
+                    El hosting web permite almacenar páginas y archivos en servidores para que
+                    puedan ser vistos desde cualquier parte del mundo mediante Internet.
+                </p>
+
+                <a class="boton"
+                href="https://www.w3schools.com/whatis/whatis_webhosting.asp"
+                target="_blank">
+
+                    Aprender Hosting
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- REFERENCIAS -->
+
+        <section class="seccion referencias" id="referencias">
+
+            <div class="contenido">
+
+                <h2>Referencias Bibliográficas</h2>
+
+                <ul>
+
+                    <li>
+                        <a href="https://www.ipt.pe/noticias/la-importancia-del-internet-en-la-era-digital/" target="_blank">
+                            Internet para todos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.ingeniovirtual.com/los-protocolos-de-internet/" target="_blank">
+                            Ingenio Virtual
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://concepto.de/internet/" target="_blank">
+                            Concepto.de
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+                            MDN Web Docs
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://web.dev/learn/design-principles/web-servers/" target="_blank">
+                            Google Developers
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h2>Síguenos en Redes Sociales</h2>
+
+        <div class="redes">
+
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+
+        <p>
+            Página desarrollada en Visual Studio Code | Actividad Académica 2026
+        </p>
+
+    </footer>
+
+</body>
+</html>
